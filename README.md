@@ -3,6 +3,11 @@
 This is a simple playground for exposing metrics from a Node.js service to Prometheus and then querying
 Prometheus from Grafana.
 
+**Exposed metrics:**
+- `metric_gauge` - A gauge type metric. [More info](https://prometheus.io/docs/concepts/metric_types/#gauge)
+- `metric_counter` - A counter type metric. [More info](https://prometheus.io/docs/concepts/metric_types/#counter)
+- `metric_histogram` - A histogram type metric. [More info](https://prometheus.io/docs/concepts/metric_types/#counter)
+
 ---
 
 ## Start
